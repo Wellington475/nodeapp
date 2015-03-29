@@ -1,0 +1,16 @@
+{
+  "name": "nodeapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.12.2",
+    "express-load": "*",
+    "body-parser": "*",
+    "errorhandler": "*",
+    "mongoose": "*",
+    "jade": "~1.9.2"
+  }
+}

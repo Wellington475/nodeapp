@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body {
+  background: #eee;
+  font-size: 14px;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  text-align:center;
+}
+a{
+  color:#000000;
+  text-decoration: none;
+}
+input[type=text]{
+  border: 1px solid #00a86b;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 2%;
+  outline:none;
+  padding-left:1%;
+  width:85%;
+}
+input[type=password]{
+  border: 1px solid #00a86b;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 2%;
+  outline:none;
+  padding-left:1%;
+  width:85%;
+}
+input[type=submit]{
+  background: #00a86b;
+  border: 1px solid #00a86b;
+  border-radius: 5px;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  height: 35px;
+  margin-top: 2%;
+  outline: none;
+  padding-left: 1%;
+  width: 86.5%;
+}
+input[type=submit]:hover{
+  background: #005D3B;
+  border-color: #005D3B;
+  cursor: pointer;
+}
+input[type=button]{
+  background: #aaaaaa;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  height: 35px;
+  margin-top: 2%;
+  outline: none;
+  padding-left: 1%;
+  width: 86.5%;
+}
+input[type=button]:hover{
+  background: #404040;
+  cursor: pointer;
+}
+.box-created{
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #00a86b;
+  height: 300px;
+  margin: 2% auto auto;
+  width: 60%;
+}
+.palco{
+  background: rgba(0, 0, 0, 0.6);
+  height: 668px;
+  position: absolute;
+  width: 100%;
+}
+.palco .box-check{
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  height: auto;
+  margin: 5% auto auto;
+  padding: 2%;
+  width: 50%;
+}
+.box-check h1{
+  font-size: 20px;
+}
+.edit_button{
+  cursor: pointer;
+  float: right;
+}
+.edit_button:hover{
+  text-decoration: underline;
+}

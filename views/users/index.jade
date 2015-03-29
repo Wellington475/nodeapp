@@ -1,0 +1,14 @@
+extend ../layout
+
+block content
+  div.master
+    div.stage
+      div.nav
+        div.logotype
+          h1 Express
+          a(href="/") home
+          a(href="/users") users
+          a(href="/users/signup") sign up
+      h1(class="title_stage") #{title}
+    div.content
+      div.conteiner
