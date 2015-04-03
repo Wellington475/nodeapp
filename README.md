@@ -11,11 +11,11 @@ Project for the study and construction of a Rest API with ExpressJS - NodeJS
 * method-override
 * mongojs (Connector for mongodb)
 
-*devDependencies*:
+## devDependencies:
 * mocha (Unit testing)
 * supertest
 
-DataBase's:
+## DataBase's:
 * MongoDB
 
 # Getting Started
@@ -34,6 +34,6 @@ To run the tests
 	npm test
 ```
 
-Note: Make sure that the mongodb is running
-
+##### Note: Make sure that the mongodb is running
+================
 ![Alt text](https://raw.githubusercontent.com/Wellington475/nodeapp/master/core/public/images/page_home.png "Home page design")
