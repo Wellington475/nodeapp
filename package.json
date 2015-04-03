@@ -1,16 +1,23 @@
 {
   "name": "nodeapp",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
+  "description": "Project for the study and construction of a Rest API with ExpressJS - NodeJS",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js",
+    "test": "mocha teste/api.js"
   },
+  "author": "Wellington Dos Santos <wellington30071997@gmail.com>",
   "dependencies": {
-    "express": "~4.12.2",
-    "express-load": "*",
-    "body-parser": "*",
-    "errorhandler": "*",
-    "mongoose": "*",
-    "jade": "~1.9.2"
+    "bluebird": "^2.9.21",
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "jade": "^1.9.2",
+    "method-override": "^2.3.2",
+    "mongojs": "^0.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "supertest": "^0.15.0"
   }
 }
