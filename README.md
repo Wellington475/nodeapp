@@ -36,4 +36,4 @@ To run the tests
 
 Note: Make sure that the mongodb is running
 
-![Alt text](https://raw.githubusercontent.com/Wellington475/nodeapp/master/public/images/page_home.png "Home page design")
+![Alt text](https://raw.githubusercontent.com/Wellington475/nodeapp/master/core/public/images/page_home.png "Home page design")
